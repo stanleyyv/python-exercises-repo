@@ -12,3 +12,7 @@ print(customer["name"])
 print(customer.get("age"))
 #return None
 print(customer.get("last name"))
+
+#adding new key and value to dictionary
+customer["last name"] = "Vuong"
+print(customer.get("last name"))
