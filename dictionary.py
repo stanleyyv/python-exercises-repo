@@ -9,5 +9,6 @@ customer = {
 #replace name with only first name
 customer["name"] = "Stanley"
 print(customer["name"])
+print(customer.get("age"))
 #return None
-print(custoemr["last name"])
+print(customer.get("last name"))
