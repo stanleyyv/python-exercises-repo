@@ -16,3 +16,11 @@ for num in nums:
     for x in range(num):
         print("x", end="")
     print("")
+
+# Nested loop with expanding string
+nums = [5,2,5,2,2]
+for num in nums:
+    line_string = ''
+    for x in range(num):
+        line_string += 'X'
+    print(line_string)
